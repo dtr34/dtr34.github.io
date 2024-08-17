@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-menu {
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 5rem;
+    margin-bottom: 50px;
+    letter-spacing: 0.1em;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.play-button {
+    font-size: 2rem;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #61dafb;
+    color: #282c34;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.play-button:hover {
+    background-color: #21a1f1;
+    transform: scale(1.05);
+}
+
+.play-button:active {
+    transform: scale(0.95);
+}
+
